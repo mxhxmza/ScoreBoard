@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(13, 13, 44);
+    color: white;
+    font-family: orbitron;
+    text-align: center;
+}
+
+#game{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#homescore{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: red;
+    padding: 40px 80px 40px 80px;
+    font-size: 100px;
+}
+
+#awayscore{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: red;
+    padding: 40px 80px 40px 80px;
+    font-size: 100px;
+}
+
+
+button{
+    background-color: rgb(13, 13, 44);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 7px;
+}
+
+button:hover{
+    color: red;
+    border: 2px solid red;
+}
+
+h2{
+    padding: 25px 0px 0px 0px;
+}
+
+#newgame{
+    margin-top: 25px;
+    padding: 30px 70px 30px 70px;
+    font-size: 30px;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
